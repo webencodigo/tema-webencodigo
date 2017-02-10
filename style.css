@@ -8,3 +8,29 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Un poco de estilo al jumbotron de Bootstrap*/
+.jumbotron{
+	background-image: url('http://webencodigo.com/wp-content/uploads/2017/02/interior.jpg');
+	bakcground-size: cover;
+}
+
+/* Esto es para separar un poco los distintos articulos en página de inicio, de archivos, de búsqueda... */
+article.wec_article{
+	padding-bottom:20px;
+	margin-bottom:30px;
+	border-bottom: 1px dashed #eeeeee;
+}
+
+/* Esto es para dar un poco más de espacio al sidebar */
+aside.wec_aside{
+	padding-left:20px;
+}
+aside.wec_aside_nohome h2{
+	margin-top:0px;
+}
