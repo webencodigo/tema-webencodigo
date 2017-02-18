@@ -4,27 +4,7 @@ get_header();
 
 ?>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="sr-only">Menú móviles</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Tema webencodigo.com</a>
-		</div>
-		<div id="navbar" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Sobre Nosotros</a></li>
-				<li><a href="#">Noticias</a></li>
-				<li class="active"><a href="#">Contacto <span class="sr-only">(activo)</span></a></li>
-			</ul>
-		</div><!--/.navbar-collapse -->
-	</div>
-</nav>
+<?php get_template_part('templates/header','menu'); ?>
 
 <div class="container">
 	<div class="row">

@@ -14,3 +14,13 @@ function webencodigo_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'webencodigo_scripts' );
+
+
+// Le decimos a nuestro WordPress que vamos a usar un menú que se va a llamar "principal"
+function webencodigo_menu() {
+
+  register_nav_menu( 'principal', 'Menú Principal' );
+
+}
+
+add_action( 'after_setup_theme', 'webencodigo_menu' );
