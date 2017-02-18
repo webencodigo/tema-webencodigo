@@ -36,14 +36,7 @@ get_header();
 	</div>
 </div><!-- /container -->
 
-<div class="container">  
-	<hr>
-
-	<footer>
-		<p>&copy; 2017 webencodigo.com</p>
-	</footer>
-</div> <!-- /container -->
-
+<?php get_template_part('templates/footer','copyright'); ?>
 
 <?php
 
