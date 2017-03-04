@@ -27,12 +27,15 @@ article.wec_article{
 	border-bottom: 1px dashed #eeeeee;
 }
 
-/* Esto es para dar un poco más de espacio al sidebar */
+/* Esto es para dar un poco más de espacio al sidebar y a sus widgets */
 aside.wec_aside{
 	padding-left:20px;
 }
 aside.wec_aside_nohome h2{
 	margin-top:0px;
+}
+aside.wec_aside .widget{
+	margin-bottom:30px;
 }
 
 /* Esto es para darle estilos al botón que esté activo en el menú */
@@ -40,3 +43,14 @@ aside.wec_aside_nohome h2{
 	color: #fff;
     background-color: #080808;
 }
+
+/* Esto es para poner la imagen de los posts al tamaño adecuado en el Loop */
+.wec_article img, .wec_imagen_destacada img{
+	max-width:100%;
+	height:auto;
+}
+.wec_imagen_destacada img{
+	margin-bottom:30px;
+}
+
+

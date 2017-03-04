@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Tema webencodigo.com</a>
+      <a class="navbar-brand" href="http://localhost/wp_webencodigo">Tema webencodigo.com</a>
     </div>
     <?php
       $args = array(
