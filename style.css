@@ -53,4 +53,45 @@ aside.wec_aside .widget{
 	margin-bottom:30px;
 }
 
+/* Estilos para los comentarios de los posts */
+.wec_area_comentarios{
+	margin-top:40px;
+}
+.wec_area_comentarios h2{
+	font-size:18px;
+}
+.wec_lista_comentarios{
+	list-style:none;
+	padding:0;
+}
+.wec_lista_comentarios li.comment{
+	border:1px solid #dedede;
+	padding: 10px;
+}
+.comment-author{
+	background:#efefef;
+}
+.comment-author img{
+	width:36px;
+	height:auto;
+}
+.comment-meta{
+	font-size:10px;
+	text-align:right;
+	margin-bottom:5px;
+}
+h3.comment-reply-title{
+	font-size:18px;
+}
+.comment-form-comment label{
+	display:none;
+}
+.comment-form-comment textarea{
+	width:100%;
+	border:1px solid #dedede;
+}
+ol.children{
+	list-style:none;
+	margin-top:15px;
+}
 

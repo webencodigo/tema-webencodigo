@@ -33,6 +33,15 @@ get_header();
             
 			<?php the_content(); ?>
 
+			<?php
+			// Si en los ajustes de WordPress tenemos activada la 
+			// opción de permitir comentarios mostramos el formulario
+			// y los comentarios
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
+			?>
+
 		</div>
 		<div class="col-md-4">
 			<aside class="wec_aside wec_aside_nohome">
